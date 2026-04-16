@@ -92,7 +92,7 @@
 			? 'text-black'
 			: 'text-white'}"
 	>
-		PORTOFOLIO NAUFAL
+		NAUFAL GANTENG
 	</button>
 
 	<div class="font-headline hidden gap-12 text-xs font-bold tracking-tighter uppercase md:flex">
