@@ -1,0 +1,321 @@
+[
+  {
+    "title": "THUMBNAIL DESIGN",
+    "description": "Eye-catching static designs tailored for social media feeds.",
+    "type": "design-feed",
+    "items": [
+      {
+        "id": "01",
+        "title": "BRAND CONCEPT",
+        "category": "VISUAL IDENTITY",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBkdzwDhN0QPoN6dRSZY92yeIBLKG1piffpiT8hBfBTB3Okz3hpa8_IUTwvBAK8BJt64qz-jHUo-mgOmyY_0iy-PmYkc1-vE5Pvf3gAxIaw30T1NPFykauHc-lLEibceg1UIBl2mGf1y5UgJwHfmKPBZkuui64UwlHnB5VcBwxYPgk-O4NSvQpYCdcW6PxSUAdFAudFZODvl0l19nYQhpizSw8vcNtcEob5NVpU4daiV2fUY60sa5k-L9rQB5fZlXk3LNrXx-2U-sEG"
+      },
+      {
+        "id": "02",
+        "title": "POSTER SERIES",
+        "category": "TYPOGRAPHY",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBdQKGURQx5DuUxioLcyKl_enjf0U3n8dMnAEU9Z5yfyYagCc2B-4RwDyVVY_rjYfsLYxZ8hFeOLZzHRIqsxhKvRal8kAa8WlLqCeXX418KQJDAIJX8-nhFz-Q0li2p3yEdYPNXLXHcsR2QSGXdvcww8rYswooMglxfBRmPNrNH-UH5IIQ9gdVxmz1dE-yfVW1ecrU2owu5To4MklcvVJ0qt3LzB-hSv9UMuigVOCGWVOLjOWCZCrUfIjyLElVpee-2yOu9GDWP44tm"
+      }
+    ]
+  },
+  {
+    "title": "DESIGN FEED & STORY INSTAGRAM",
+    "description": "Engaging vertical graphics optimized for Instagram stories.",
+    "type": "design-story",
+    "items": [
+      {
+        "id": "s1",
+        "title": "STORY 1",
+        "category": "TESTIMONIAL",
+        "group": "Brown and White Modern Product Customer Testimonial",
+        "image": "https://drive.google.com/thumbnail?id=1khHzh7UrLE1kYTwDAmAnpKpNmIE_PgM0&sz=w1080"
+      },
+      {
+        "id": "s2",
+        "title": "STORY 2",
+        "category": "TESTIMONIAL",
+        "group": "Brown and White Modern Product Customer Testimonial",
+        "image": "https://drive.google.com/thumbnail?id=1n3hDs8EvXu-ZjPAFAkzPKiYbEt9yk-ZC&sz=w1080"
+      },
+      {
+        "id": "s3",
+        "title": "PROMO 1",
+        "category": "PROMO",
+        "group": "Bundling harga offline",
+        "image": "https://drive.google.com/thumbnail?id=1-9pr4ss6IxEvop5K9KZ5qDuEn-2NZ93P&sz=w1080"
+      },
+      {
+        "id": "s3_1",
+        "title": "PROMO 2",
+        "category": "PROMO",
+        "group": "Bundling harga offline",
+        "image": "https://drive.google.com/thumbnail?id=1kVNPlKI6sG2JopknGb_5uN6T789dURrR&sz=w1080"
+      },
+      {
+        "id": "s3_2",
+        "title": "PROMO 3",
+        "category": "PROMO",
+        "group": "Bundling harga offline",
+        "image": "https://drive.google.com/thumbnail?id=1gdNXqWCXiYS3AOP_Ed0dvvh7y1nWXfMG&sz=w1080"
+      },
+      {
+        "id": "s3_3",
+        "title": "PROMO 4",
+        "category": "PROMO",
+        "group": "Bundling harga offline",
+        "image": "https://drive.google.com/thumbnail?id=1krqM62D3NxeZNtbTfyffYNGRfrf3Hlkh&sz=w1080"
+      },
+      {
+        "id": "s4_1",
+        "title": "EDUKASI 1",
+        "category": "CAMPAIGN",
+        "group": "Dear, BapakSuami (Perokok)",
+        "image": "https://drive.google.com/thumbnail?id=1fzJBpf0-pUZrnZq5GKBbP3nakn34Roa4&sz=w1080"
+      },
+      {
+        "id": "s4_2",
+        "title": "EDUKASI 2",
+        "category": "CAMPAIGN",
+        "group": "Dear, BapakSuami (Perokok)",
+        "image": "https://drive.google.com/thumbnail?id=1vda3Wi9Bq_8hS943vAAhQBDamidJGK81&sz=w1080"
+      },
+      {
+        "id": "s4_3",
+        "title": "EDUKASI 3",
+        "category": "CAMPAIGN",
+        "group": "Dear, BapakSuami (Perokok)",
+        "image": "https://drive.google.com/thumbnail?id=1-7Mt71XYTx2gQUoa-KC2cpWK_JH2KYAs&sz=w1080"
+      },
+      {
+        "id": "s4_4",
+        "title": "EDUKASI 4",
+        "category": "CAMPAIGN",
+        "group": "Dear, BapakSuami (Perokok)",
+        "image": "https://drive.google.com/thumbnail?id=1qiAaqhdAn6KPKYKJ4gauyMpn-gvltWiC&sz=w1080"
+      },
+      {
+        "id": "s4_5",
+        "title": "EDUKASI 5",
+        "category": "CAMPAIGN",
+        "group": "Dear, BapakSuami (Perokok)",
+        "image": "https://drive.google.com/thumbnail?id=1dWlrrQvEOwuLgfL3Q1s5H4phJw1SlMY5&sz=w1080"
+      },
+      {
+        "id": "s5_1",
+        "title": "EDUKASI 1",
+        "category": "CAMPAIGN",
+        "group": "Jangan buru-buru menghakimi perokok",
+        "image": "https://drive.google.com/thumbnail?id=1edTMuY-PvvZSnlSzBiy1hbUsZNnQe8aO&sz=w1080"
+      },
+      {
+        "id": "s5_2",
+        "title": "EDUKASI 2",
+        "category": "CAMPAIGN",
+        "group": "Jangan buru-buru menghakimi perokok",
+        "image": "https://drive.google.com/thumbnail?id=16tWbtEEiN_ToVrNeCR2AUB11M2lAjfiu&sz=w1080"
+      },
+      {
+        "id": "s5_3",
+        "title": "EDUKASI 3",
+        "category": "CAMPAIGN",
+        "group": "Jangan buru-buru menghakimi perokok",
+        "image": "https://drive.google.com/thumbnail?id=102ft0ZQ6y_sTwNldqanPcfGazEAExE4b&sz=w1080"
+      },
+      {
+        "id": "s5_4",
+        "title": "EDUKASI 4",
+        "category": "CAMPAIGN",
+        "group": "Jangan buru-buru menghakimi perokok",
+        "image": "https://drive.google.com/thumbnail?id=1bd2MM_Dd9gHIhWs_ni979KcQO0r4ocOW&sz=w1080"
+      },
+      {
+        "id": "s5_5",
+        "title": "EDUKASI 5",
+        "category": "CAMPAIGN",
+        "group": "Jangan buru-buru menghakimi perokok",
+        "image": "https://drive.google.com/thumbnail?id=14gfzeUKDFmEpOOKYzTU4LyBDByOuzdM7&sz=w1080"
+      },
+      {
+        "id": "s5_6",
+        "title": "EDUKASI 6",
+        "category": "CAMPAIGN",
+        "group": "Jangan buru-buru menghakimi perokok",
+        "image": "https://drive.google.com/thumbnail?id=1NJIyaQrTfSPwsF1clsQEumLTVBOHTvaV&sz=w1080"
+      },
+      {
+        "id": "s5_7",
+        "title": "EDUKASI 7",
+        "category": "CAMPAIGN",
+        "group": "Jangan buru-buru menghakimi perokok",
+        "image": "https://drive.google.com/thumbnail?id=1z8PoK27Pr1x0gpWiCGj_yIvFQG-YJiAJ&sz=w1080"
+      },
+      {
+        "id": "s5_8",
+        "title": "EDUKASI 8",
+        "category": "CAMPAIGN",
+        "group": "Jangan buru-buru menghakimi perokok",
+        "image": "https://drive.google.com/thumbnail?id=1E00VIRevfGUmZoSsIobn2-n1s4FRdxmt&sz=w1080"
+      },
+      {
+        "id": "s6_1",
+        "title": "NRT INFO 1",
+        "category": "INFORMATION",
+        "group": "jenis jenis NRT",
+        "image": "https://drive.google.com/thumbnail?id=1djH_p_vqfv4Z3Ai135MGRql8JnUB0rjD&sz=w1080"
+      },
+      {
+        "id": "s6_2",
+        "title": "NRT INFO 2",
+        "category": "INFORMATION",
+        "group": "jenis jenis NRT",
+        "image": "https://drive.google.com/thumbnail?id=17xf4ouumYbrTNYHwvmMsD5z7ahzKpl_c&sz=w1080"
+      },
+      {
+        "id": "s6_3",
+        "title": "NRT INFO 3",
+        "category": "INFORMATION",
+        "group": "jenis jenis NRT",
+        "image": "https://drive.google.com/thumbnail?id=1LgzkLUPvhYzh5OCS4i6mHss70taxoF05&sz=w1080"
+      },
+      {
+        "id": "s6_4",
+        "title": "NRT INFO 4",
+        "category": "INFORMATION",
+        "group": "jenis jenis NRT",
+        "image": "https://drive.google.com/thumbnail?id=1ezZW7N8AeIx1F-vG1-rlC0cQjCfs3Qiw&sz=w1080"
+      },
+      {
+        "id": "s6_5",
+        "title": "NRT INFO 5",
+        "category": "INFORMATION",
+        "group": "jenis jenis NRT",
+        "image": "https://drive.google.com/thumbnail?id=1ezZW7N8AeIx1F-vG1-rlC0cQjCfs3Qiw&sz=w1080"
+      },
+      {
+        "id": "s7_1",
+        "title": "INFO 1",
+        "category": "INFORMATION",
+        "group": "kenapa harus 1x1",
+        "image": "https://drive.google.com/thumbnail?id=1BXgMXgqrI3Ch4fAR4IlKiFuiJJ_iZBZv&sz=w1080"
+      },
+      {
+        "id": "s7_2",
+        "title": "INFO 2",
+        "category": "INFORMATION",
+        "group": "kenapa harus 1x1",
+        "image": "https://drive.google.com/thumbnail?id=1pGc_3UnQDG8wDYRr81T182LPWL9PYKxq&sz=w1080"
+      },
+      {
+        "id": "s7_3",
+        "title": "INFO 3",
+        "category": "INFORMATION",
+        "group": "kenapa harus 1x1",
+        "image": "https://drive.google.com/thumbnail?id=1nWDsS0eKEnipNrhtPhFGIIVOrSSfBua8&sz=w1080"
+      },
+      {
+        "id": "s7_4",
+        "title": "INFO 4",
+        "category": "INFORMATION",
+        "group": "kenapa harus 1x1",
+        "image": "https://drive.google.com/thumbnail?id=19prmKhHnYsHAkjTszbBqQV6divnwvvyB&sz=w1080"
+      },
+      {
+        "id": "s8_1",
+        "title": "KEYWORD 1",
+        "category": "CAMPAIGN",
+        "group": "KEYWORD [ MAU STOP ]",
+        "image": "https://drive.google.com/thumbnail?id=1nb8H1YRsza00y2NbH0GA80by7ASLbEWb&sz=w1080"
+      },
+      {
+        "id": "s8_2",
+        "title": "KEYWORD 2",
+        "category": "CAMPAIGN",
+        "group": "KEYWORD [ MAU STOP ]",
+        "image": "https://drive.google.com/thumbnail?id=1QZEwD76L2IMT_bcPRJDbLssK6Mgz4dkQ&sz=w1080"
+      },
+      {
+        "id": "s8_3",
+        "title": "KEYWORD 3",
+        "category": "CAMPAIGN",
+        "group": "KEYWORD [ MAU STOP ]",
+        "image": "https://drive.google.com/thumbnail?id=1tKijhr2IgBsaoQ2goC1422skm6Kni7Cq&sz=w1080"
+      },
+      {
+        "id": "s8_4",
+        "title": "KEYWORD 4",
+        "category": "CAMPAIGN",
+        "group": "KEYWORD [ MAU STOP ]",
+        "image": "https://drive.google.com/thumbnail?id=1KFSP_6B2o4VWpqbzzs0lXh6wDZdIxwsS&sz=w1080"
+      },
+      {
+        "id": "s8_5",
+        "title": "KEYWORD 5",
+        "category": "CAMPAIGN",
+        "group": "KEYWORD [ MAU STOP ]",
+        "image": "https://drive.google.com/thumbnail?id=14s-pphEqDfomyK3Vw-g5ove07T79jQ3U&sz=w1080"
+      }
+    ]
+  },
+  {
+    "title": "LANDSCAPE VIDEO",
+    "description": "Cinematic wide-angle cuts and commercial productions.",
+    "type": "video-landscape",
+    "items": [
+      {
+        "id": "05",
+        "title": "EVENT HIGHLIGHTS",
+        "category": "DOCUMENTARY",
+        "videoId": "1kxthZbimyhwyzT-0qWso-9al8WprsX4G"
+      },
+      {
+        "id": "06",
+        "title": "BRAND COMMERCIAL",
+        "category": "COMMERCIAL",
+        "videoId": "PLACEHOLDER_FILE_ID_2"
+      },
+      {
+        "id": "07",
+        "title": "TRAVEL VLOG",
+        "category": "CINEMATOGRAPHY",
+        "videoId": "PLACEHOLDER_FILE_ID_5"
+      },
+      {
+        "id": "08",
+        "title": "MUSIC VIDEO",
+        "category": "DIRECTING",
+        "videoId": "PLACEHOLDER_FILE_ID_6"
+      }
+    ]
+  },
+  {
+    "title": "PORTRAIT VIDEO",
+    "description": "Fast-paced vertical formats optimized for social platforms.",
+    "type": "video-portrait",
+    "items": [
+      {
+        "id": "09",
+        "title": "TIKTOK TRENDS",
+        "category": "SHORT FORM",
+        "videoId": "PLACEHOLDER_FILE_ID_3"
+      },
+      {
+        "id": "10",
+        "title": "INSTAGRAM REELS",
+        "category": "SOCIAL",
+        "videoId": "PLACEHOLDER_FILE_ID_4"
+      },
+      {
+        "id": "11",
+        "title": "PRODUCT TEASER",
+        "category": "PROMO",
+        "videoId": "PLACEHOLDER_FILE_ID_7"
+      },
+      {
+        "id": "12",
+        "title": "FASHION CAMPAIGN",
+        "category": "SOCIAL ADS",
+        "videoId": "PLACEHOLDER_FILE_ID_8"
+      }
+    ]
+  }
+]
