@@ -253,6 +253,41 @@
         "category": "CAMPAIGN",
         "group": "KEYWORD [ MAU STOP ]",
         "image": "https://drive.google.com/thumbnail?id=14s-pphEqDfomyK3Vw-g5ove07T79jQ3U&sz=w1080"
+      },
+      {
+        "id": "s9_1",
+        "title": "SUSAH BERHENTI 1",
+        "category": "CAMPAIGN",
+        "group": "yang ingin susah berhenti",
+        "image": "https://drive.google.com/thumbnail?id=1y2ptO4y6j1LIJDXr1fuCeb0LvfnIJXtO&sz=w1080"
+      },
+      {
+        "id": "s9_2",
+        "title": "SUSAH BERHENTI 2",
+        "category": "CAMPAIGN",
+        "group": "yang ingin susah berhenti",
+        "image": "https://drive.google.com/thumbnail?id=1CiDnWMrTMn-ryC4oEtofI0nAksjisg1N&sz=w1080"
+      },
+      {
+        "id": "s9_3",
+        "title": "SUSAH BERHENTI 3",
+        "category": "CAMPAIGN",
+        "group": "yang ingin susah berhenti",
+        "image": "https://drive.google.com/thumbnail?id=1pCjfEMzebhwBApBIaBvR1zPYcwC5AsNf&sz=w1080"
+      },
+      {
+        "id": "s9_4",
+        "title": "SUSAH BERHENTI 4",
+        "category": "CAMPAIGN",
+        "group": "yang ingin susah berhenti",
+        "image": "https://drive.google.com/thumbnail?id=1NzD71IdjfJ9RbRbbG6hFW7T7bLLOqO5-&sz=w1080"
+      },
+      {
+        "id": "s9_5",
+        "title": "SUSAH BERHENTI 5",
+        "category": "CAMPAIGN",
+        "group": "yang ingin susah berhenti",
+        "image": "https://drive.google.com/thumbnail?id=1EAB3lRgMikYG7eaOp4xoaXIe1VEbdINx&sz=w1080"
       }
     ]
   },
@@ -262,28 +297,142 @@
     "type": "video-landscape",
     "items": [
       {
-        "id": "05",
-        "title": "EVENT HIGHLIGHTS",
-        "category": "DOCUMENTARY",
+        "id": "v1_2",
+        "title": "LANDSCAPE VIDEO 2",
+        "category": "VIDEO",
         "videoId": "1kxthZbimyhwyzT-0qWso-9al8WprsX4G"
       },
       {
-        "id": "06",
-        "title": "BRAND COMMERCIAL",
-        "category": "COMMERCIAL",
-        "videoId": "PLACEHOLDER_FILE_ID_2"
+        "id": "v1_3",
+        "title": "LANDSCAPE VIDEO 3",
+        "category": "VIDEO",
+        "videoId": "15eW02YyoFU7MjdaBSlaVJu5G2vsBxuNM"
       },
       {
-        "id": "07",
-        "title": "TRAVEL VLOG",
-        "category": "CINEMATOGRAPHY",
-        "videoId": "PLACEHOLDER_FILE_ID_5"
+        "id": "v1_4",
+        "title": "LANDSCAPE VIDEO 4",
+        "category": "VIDEO",
+        "videoId": "1YPF8E80M48XLV-e2etAd8jwVJSFtDGAy"
       },
       {
-        "id": "08",
-        "title": "MUSIC VIDEO",
-        "category": "DIRECTING",
-        "videoId": "PLACEHOLDER_FILE_ID_6"
+        "id": "v1_5",
+        "title": "LANDSCAPE VIDEO 5",
+        "category": "VIDEO",
+        "videoId": "1FCIpCXFHXdReH-4qbjVSS9P6N_mLwhta"
+      },
+      {
+        "id": "v1_6",
+        "title": "LANDSCAPE VIDEO 6",
+        "category": "VIDEO",
+        "videoId": "1hF9f8N_w7S_8VedqRi3uUKNkYchF3gql"
+      },
+      {
+        "id": "v1_7",
+        "title": "LANDSCAPE VIDEO 7",
+        "category": "VIDEO",
+        "videoId": "1IkHQdaqS1e2dXcJzFMrjB1vZDaUj2Vip"
+      },
+      {
+        "id": "v1_8",
+        "title": "LANDSCAPE VIDEO 8",
+        "category": "VIDEO",
+        "videoId": "1xfAej-m9z2mom5Lw1-vOt2f4k6y2QKlb"
+      },
+      {
+        "id": "v1_9",
+        "title": "LANDSCAPE VIDEO 9",
+        "category": "VIDEO",
+        "videoId": "1rZ22E9CL1lSzPjbJ8H0IXIM9Ci4a2TgC"
+      },
+      {
+        "id": "v1_10",
+        "title": "LANDSCAPE VIDEO 10",
+        "category": "VIDEO",
+        "videoId": "1RQ4_2VgHic8js25pVXyZmt399BhkCkuQ"
+      },
+      {
+        "id": "v1_11",
+        "title": "LANDSCAPE VIDEO 11",
+        "category": "VIDEO",
+        "videoId": "1MmS8p5Vg3Bcuj0q-ihTnJoTIVes-lMOG"
+      },
+      {
+        "id": "v1_12",
+        "title": "LANDSCAPE VIDEO 12",
+        "category": "VIDEO",
+        "videoId": "1fx7gvEva3NRERcTvICa5fLDTJmPobX6o"
+      },
+      {
+        "id": "v1_13",
+        "title": "LANDSCAPE VIDEO 13",
+        "category": "VIDEO",
+        "videoId": "1sT-gNd-zUqE3gvcqL0xwIaBEqPFO7iPH"
+      },
+      {
+        "id": "v1_14",
+        "title": "LANDSCAPE VIDEO 14",
+        "category": "VIDEO",
+        "videoId": "1aXIWuKPfjiCA4WvEYaVevNk1jNhBWwQ8"
+      },
+      {
+        "id": "v1_15",
+        "title": "LANDSCAPE VIDEO 15",
+        "category": "VIDEO",
+        "videoId": "1IVK2NtJQ9eBHRtOJBjtTSVNkA2C98WhM"
+      },
+      {
+        "id": "v1_16",
+        "title": "LANDSCAPE VIDEO 16",
+        "category": "VIDEO",
+        "videoId": "1Skd-2LwH5Ot-vVPzEREgS5ED-90c7vOQ"
+      },
+      {
+        "id": "v1_17",
+        "title": "LANDSCAPE VIDEO 17",
+        "category": "VIDEO",
+        "videoId": "10SaTDpFCwWAwujZlwrX7S3nFmjeU_GRP"
+      },
+      {
+        "id": "v1_18",
+        "title": "LANDSCAPE VIDEO 18",
+        "category": "VIDEO",
+        "videoId": "1D_8Lz4DuFI0d0cNAs5RGYr1oGG2msQQK"
+      },
+      {
+        "id": "v1_19",
+        "title": "LANDSCAPE VIDEO 19",
+        "category": "VIDEO",
+        "videoId": "1qpjkQaoSlMLT_KeBVaQ-qxU4fLuEBrjf"
+      },
+      {
+        "id": "v1_20",
+        "title": "LANDSCAPE VIDEO 20",
+        "category": "VIDEO",
+        "videoId": "1T13RNXBA53Yg8rl8hBxnJ3WKuq8Cou6a"
+      },
+      {
+        "id": "v1_21",
+        "title": "LANDSCAPE VIDEO 21",
+        "category": "VIDEO",
+        "videoId": "10a6SetJNJGAEKj0k8pe12yZuuVqi3gnu"
+      },
+      {
+        "id": "v1_22",
+        "title": "LANDSCAPE VIDEO 22",
+        "category": "VIDEO",
+        "videoId": "1aJII5Ey4VZwtJBh6mKPuW23ZD4MgB9Hu"
+      },
+      {
+        "id": "v1_23",
+        "title": "LANDSCAPE VIDEO 23",
+        "category": "VIDEO",
+        "videoId": "1pb-Pp78d6kKSdbIHPERfAuke_nWC5ic1"
+      },
+      {
+        "id": "v1_24",
+        "title": "LANDSCAPE VIDEO 24",
+        "category": "VIDEO",
+        "videoId": "15-3fTD77SOX16S66A_bE5oZvfm0PKBbV"
       }
     ]
   },

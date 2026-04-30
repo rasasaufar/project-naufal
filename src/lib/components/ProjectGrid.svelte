@@ -2,8 +2,13 @@
 	// Helper function to generate an embeddable Google Drive link
 	const getDriveEmbedUrl = (fileId: string) => `https://drive.google.com/file/d/${fileId}/preview`;
 
+	// Helper function to generate a lightweight Google Drive thumbnail URL
+	const getDriveThumbnailUrl = (fileId: string, size: number = 640) =>
+		`https://drive.google.com/thumbnail?id=${fileId}&sz=w${size}`;
+
 	// Transition import for modal
 	import { fade, slide } from 'svelte/transition';
+	import { onMount } from 'svelte';
 
 	type Project = {
 		id: string;
@@ -34,6 +39,44 @@
 	// Image Slider State
 	let activeImageList: Project[] = [];
 	let activeImageIndex = 0;
+
+	// Track loaded images for fade-in effect (plain object for reliable Svelte reactivity)
+	let loadedImages: Record<string, boolean> = {};
+
+	function onImageLoad(id: string) {
+		loadedImages[id] = true;
+		loadedImages = loadedImages; // trigger reactivity
+	}
+
+	// IntersectionObserver-based lazy loading action for modal items
+	function lazyLoad(node: HTMLElement) {
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						node.classList.add('is-visible');
+						// Find any images with data-src and swap to real src
+						const lazySources = node.querySelectorAll('[data-src]');
+						lazySources.forEach((el) => {
+							const dataSrc = el.getAttribute('data-src');
+							if (dataSrc) {
+								el.setAttribute('src', dataSrc);
+								el.removeAttribute('data-src');
+							}
+						});
+						observer.unobserve(node);
+					}
+				});
+			},
+			{ rootMargin: '200px 0px', threshold: 0.01 }
+		);
+		observer.observe(node);
+		return {
+			destroy() {
+				observer.disconnect();
+			}
+		};
+	}
 
 	function openModal(categoryTitle?: string) {
 		activeCategoryFilter = categoryTitle || null;
@@ -104,6 +147,20 @@
 		}
 		return groups;
 	}
+
+	// Helper to get a smaller thumbnail version of a Drive image URL for grid views
+	function getSmallThumbnail(url: string | undefined): string {
+		if (!url) return '';
+		// Replace sz=w1080 with sz=w400 for grid thumbnails
+		return url.replace(/sz=w\d+/, 'sz=w400');
+	}
+
+	// Helper to get the full-res version of a Drive image URL for the slider
+	function getFullResImage(url: string | undefined): string {
+		if (!url) return '';
+		// Upgrade to w1600 for slider popup
+		return url.replace(/sz=w\d+/, 'sz=w1600');
+	}
 </script>
 
 <section id="work" class="bg-surface px-12 py-32">
@@ -168,15 +225,19 @@
 											on:click={() => openVideoModal(project, category.type)} 
 											aria-label="Play {project.title}"></button>
 										
-										<!-- iframe preview (pointer-events-none so click passes to the button above) -->
-										<iframe
-											src={getDriveEmbedUrl(project.videoId || '')}
-											title={project.title}
-											loading="lazy"
-											class="pointer-events-none h-full w-full grow object-cover transition-transform duration-700 group-hover:scale-105"
-											frameborder="0"
-											allowfullscreen
-										></iframe>
+										<!-- Lightweight thumbnail preview instead of heavy iframe -->
+										<div class="lazy-img-wrapper h-full w-full">
+											{#if !loadedImages[project.id]}
+												<div class="skeleton-loader absolute inset-0"></div>
+											{/if}
+											<img
+												referrerpolicy="no-referrer"
+												src={getDriveThumbnailUrl(project.videoId || '', 640)}
+												alt={project.title}
+												on:load={() => onImageLoad(project.id)}
+												class="h-full w-full object-cover transition-all duration-700 group-hover:scale-105 {loadedImages[project.id] ? 'opacity-100' : 'opacity-0'}"
+											/>
+										</div>
 									{:else}
 										<!-- Click catcher to open image modal using the active slice array context -->
 										<button 
@@ -185,13 +246,19 @@
 											aria-label="View {project.title}"></button>
 
 										<!-- Render Image for Design -->
-										<img
-											referrerpolicy="no-referrer"
-											loading="lazy"
-											src={project.image}
-											alt={project.title}
-											class="h-full w-full object-cover grayscale opacity-50 transition-all duration-700 group-hover:scale-105 group-hover:opacity-100 group-hover:grayscale-0"
-										/>
+										<div class="lazy-img-wrapper h-full w-full">
+											{#if !loadedImages[project.id]}
+												<div class="skeleton-loader absolute inset-0"></div>
+											{/if}
+											<img
+												referrerpolicy="no-referrer"
+												loading="lazy"
+												src={project.image}
+												alt={project.title}
+												on:load={() => onImageLoad(project.id)}
+												class="h-full w-full object-cover grayscale opacity-50 transition-all duration-700 group-hover:scale-105 group-hover:opacity-100 group-hover:grayscale-0 {loadedImages[project.id] ? '' : '!opacity-0'}"
+											/>
+										</div>
 									{/if}
 									
 									<!-- Info overlay -->
@@ -300,19 +367,25 @@
 											<!-- Group Grid -->
 											<div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
 												{#each groupItems as project (project.id)}
-													<div class="bg-surface group relative flex aspect-9/16 flex-col overflow-hidden rounded-xl border border-white/5">
+													<div use:lazyLoad class="bg-surface group relative flex aspect-9/16 flex-col overflow-hidden rounded-xl border border-white/5">
 														<button 
 															class="absolute inset-0 z-30 cursor-pointer border-none bg-transparent outline-none focus:ring-0" 
 															on:click={() => openImageModal(project, groupItems)} 
 															aria-label="View {project.title}"></button>
 														
-														<img
-															referrerpolicy="no-referrer"
-															loading="lazy"
-															src={project.image}
-															alt={project.title}
-															class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-														/>
+														<!-- Lazy loaded with skeleton -->
+														<div class="lazy-img-wrapper h-full w-full">
+															{#if !loadedImages['grp-' + project.id]}
+																<div class="skeleton-loader absolute inset-0"></div>
+															{/if}
+															<img
+																referrerpolicy="no-referrer"
+																data-src={getSmallThumbnail(project.image)}
+																alt={project.title}
+																on:load={() => onImageLoad('grp-' + project.id)}
+																class="h-full w-full object-cover transition-all duration-500 group-hover:scale-105 {loadedImages['grp-' + project.id] ? 'opacity-100' : 'opacity-0'}"
+															/>
+														</div>
 														<!-- Simplified info overlay for modal -->
 														<div class="pointer-events-none absolute inset-0 z-20 flex flex-col justify-end p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-linear-to-t from-black/90 to-transparent">
 															<h5 class="font-headline text-sm font-bold text-white">{project.title}</h5>
@@ -328,7 +401,7 @@
 								<!-- Grid inside modal uses 3 cols for smaller ratio, and masonry-like feel -->
 								<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 									{#each category.items as project (project.id)}
-										<div class="bg-surface group relative flex flex-col overflow-hidden rounded-xl border border-white/5 {
+										<div use:lazyLoad class="bg-surface group relative flex flex-col overflow-hidden rounded-xl border border-white/5 {
 											category.type === 'video-landscape' ? 'aspect-video' : 
 											(category.type === 'video-portrait' || category.type === 'design-story') ? 'aspect-9/16' : 'aspect-4/5'
 										}">
@@ -342,27 +415,38 @@
 													on:click={() => openVideoModal(project, category.type)} 
 													aria-label="Play {project.title}"></button>
 
-												<iframe
-													src={getDriveEmbedUrl(project.videoId || '')}
-													title={project.title}
-													loading="lazy"
-													class="pointer-events-none h-full w-full grow object-cover"
-													frameborder="0"
-													allowfullscreen
-												></iframe>
+												<!-- Lightweight thumbnail instead of heavy iframe -->
+												<div class="lazy-img-wrapper h-full w-full">
+													{#if !loadedImages['modal-' + project.id]}
+														<div class="skeleton-loader absolute inset-0"></div>
+													{/if}
+													<img
+														referrerpolicy="no-referrer"
+														data-src={getDriveThumbnailUrl(project.videoId || '', 480)}
+														alt={project.title}
+														on:load={() => onImageLoad('modal-' + project.id)}
+														class="h-full w-full object-cover transition-all duration-500 {loadedImages['modal-' + project.id] ? 'opacity-100' : 'opacity-0'}"
+													/>
+												</div>
 											{:else}
 												<button 
 													class="absolute inset-0 z-30 cursor-pointer border-none bg-transparent outline-none focus:ring-0" 
 													on:click={() => openImageModal(project, category.items)} 
 													aria-label="View {project.title}"></button>
 
-												<img
-													referrerpolicy="no-referrer"
-													loading="lazy"
-													src={project.image}
-													alt={project.title}
-													class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-												/>
+												<!-- Lazy loaded image with skeleton -->
+												<div class="lazy-img-wrapper h-full w-full">
+													{#if !loadedImages['modal-' + project.id]}
+														<div class="skeleton-loader absolute inset-0"></div>
+													{/if}
+													<img
+														referrerpolicy="no-referrer"
+														data-src={getSmallThumbnail(project.image)}
+														alt={project.title}
+														on:load={() => onImageLoad('modal-' + project.id)}
+														class="h-full w-full object-cover transition-all duration-500 group-hover:scale-105 {loadedImages['modal-' + project.id] ? 'opacity-100' : 'opacity-0'}"
+													/>
+												</div>
 											{/if}
 											
 											<!-- Simplified info overlay for modal -->
@@ -458,7 +542,7 @@
 				{#key activeImageIndex}
 					<img 
 						referrerpolicy="no-referrer"
-						src={activeImageList[activeImageIndex].image} 
+						src={getFullResImage(activeImageList[activeImageIndex].image)} 
 						alt={activeImageList[activeImageIndex].title}
 						class="max-h-[85vh] max-w-full object-contain rounded-xl shadow-2xl"
 						in:fade={{ duration: 200 }}
@@ -485,3 +569,36 @@
 		</div>
 	</div>
 {/if}
+
+<style>
+	/* Skeleton loading animation */
+	.skeleton-loader {
+		background: linear-gradient(
+			90deg,
+			rgba(255, 255, 255, 0.03) 0%,
+			rgba(255, 255, 255, 0.08) 50%,
+			rgba(255, 255, 255, 0.03) 100%
+		);
+		background-size: 200% 100%;
+		animation: skeleton-shimmer 1.5s ease-in-out infinite;
+	}
+
+	@keyframes skeleton-shimmer {
+		0% {
+			background-position: -200% 0;
+		}
+		100% {
+			background-position: 200% 0;
+		}
+	}
+
+	/* Lazy image wrapper */
+	.lazy-img-wrapper {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.lazy-img-wrapper img {
+		transition: opacity 0.5s ease;
+	}
+</style>
