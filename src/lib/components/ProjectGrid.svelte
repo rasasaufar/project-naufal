@@ -399,7 +399,7 @@
 								</div>
 							{:else}
 								<!-- Grid inside modal uses 3 cols for smaller ratio, and masonry-like feel -->
-								<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+								<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
 									{#each category.items as project (project.id)}
 										<div use:lazyLoad class="bg-surface group relative flex flex-col overflow-hidden rounded-xl border border-white/5 {
 											category.type === 'video-landscape' ? 'aspect-video' : 
