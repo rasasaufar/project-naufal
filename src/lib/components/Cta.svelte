@@ -8,7 +8,7 @@
 	<div class="relative z-10 flex justify-center gap-12">
 		<a
 			class="group font-label flex items-center gap-4 border-b-2 border-black pb-2 text-sm font-bold tracking-widest transition-all hover:opacity-70"
-			href="#"
+			href="mailto:nurahly@gmail.com"
 		>
 			INQUIRIES
 			<span class="material-symbols-outlined transition-transform group-hover:translate-x-1"
