@@ -14,7 +14,7 @@
 			>
 				OBSESSIVE <br />
 				<span class="stroke-white text-transparent" style="-webkit-text-stroke: 2px white;"
-					>PRECISION...</span
+					>PRECISION.</span
 				>
 			</h2>
 
