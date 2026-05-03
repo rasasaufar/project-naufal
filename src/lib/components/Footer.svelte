@@ -10,7 +10,7 @@
 			<a class="transition-colors duration-500 hover:text-white" href="#">BEHANCE</a>
 			<a class="transition-colors duration-500 hover:text-white" href="#">DRIBBBLE</a>
 			<a class="transition-colors duration-500 hover:text-white" href="https://www.linkedin.com/in/m-naufal-nur-ahly?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
-			<a class="transition-colors duration-500 hover:text-white" href="https://wa.me/628967171642" target="_blank" rel="noopener noreferrer">WHATSAPP</a>
+			<a class="transition-colors duration-500 hover:text-white" href="https://wa.me/6289671711642" target="_blank" rel="noopener noreferrer">WHATSAPP</a>
 		</div>
 		<p class="font-label text-[10px] tracking-widest text-neutral-600 uppercase">
 			© 2026 THE KINETIC PORTOFOLIO NAUFAL. ALL RIGHTS RESERVED.
