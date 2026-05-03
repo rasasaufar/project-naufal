@@ -13,7 +13,7 @@
 			<a class="transition-colors duration-500 hover:text-white" href="https://wa.me/6289671711642" target="_blank" rel="noopener noreferrer">WHATSAPP</a>
 		</div>
 		<p class="font-label text-[10px] tracking-widest text-neutral-600 uppercase">
-			© 2026 THE KINETIC PORTOFOLIO NAUFAL. ALL RIGHTS RESERVED.
+			© 2026 PORTOFOLIO NAUFAL. ALL RIGHTS RESERVED MADE BY ACASZZZ.
 		</p>
 	</div>
 </footer>
