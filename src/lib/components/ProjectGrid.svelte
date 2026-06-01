@@ -371,24 +371,49 @@
 											<div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
 												{#each groupItems as project (project.id)}
 													<div use:lazyLoad class="bg-surface group relative flex {getProjectAspectClass(category.type, project)} flex-col overflow-hidden rounded-xl border border-white/5">
-														<button 
-															class="absolute inset-0 z-30 cursor-pointer border-none bg-transparent outline-none focus:ring-0" 
-															on:click={() => openImageModal(project, groupItems)} 
-															aria-label="View {project.title}"></button>
-														
-														<!-- Lazy loaded with skeleton -->
-														<div class="lazy-img-wrapper h-full w-full">
-															{#if !loadedImages['grp-' + project.id]}
-																<div class="skeleton-loader absolute inset-0"></div>
-															{/if}
-															<img
-																referrerpolicy="no-referrer"
-																data-src={getSmallThumbnail(project.image)}
-																alt={project.title}
-																on:load={() => onImageLoad('grp-' + project.id)}
-																class="h-full w-full object-cover transition-all duration-500 group-hover:scale-105 {loadedImages['grp-' + project.id] ? 'opacity-100' : 'opacity-0'}"
-															/>
-														</div>
+														{#if category.type.startsWith('video')}
+															<div class="pointer-events-none absolute inset-0 z-10 flex items-center justify-center bg-black/40 opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+																<span class="material-symbols-outlined text-4xl text-white opacity-80">play_circle</span>
+															</div>
+
+															<button
+																class="absolute inset-0 z-30 cursor-pointer border-none bg-transparent outline-none focus:ring-0"
+																on:click={() => openVideoModal(project, category.type)}
+																aria-label="Play {project.title}"></button>
+
+															<!-- Lazy loaded video thumbnail with skeleton -->
+															<div class="lazy-img-wrapper h-full w-full">
+																{#if !loadedImages['grp-' + project.id]}
+																	<div class="skeleton-loader absolute inset-0"></div>
+																{/if}
+																<img
+																	referrerpolicy="no-referrer"
+																	data-src={getDriveThumbnailUrl(project.videoId || '', 480)}
+																	alt={project.title}
+																	on:load={() => onImageLoad('grp-' + project.id)}
+																	class="h-full w-full object-cover transition-all duration-500 group-hover:scale-105 {loadedImages['grp-' + project.id] ? 'opacity-100' : 'opacity-0'}"
+																/>
+															</div>
+														{:else}
+															<button
+																class="absolute inset-0 z-30 cursor-pointer border-none bg-transparent outline-none focus:ring-0"
+																on:click={() => openImageModal(project, groupItems)}
+																aria-label="View {project.title}"></button>
+															
+															<!-- Lazy loaded with skeleton -->
+															<div class="lazy-img-wrapper h-full w-full">
+																{#if !loadedImages['grp-' + project.id]}
+																	<div class="skeleton-loader absolute inset-0"></div>
+																{/if}
+																<img
+																	referrerpolicy="no-referrer"
+																	data-src={getSmallThumbnail(project.image)}
+																	alt={project.title}
+																	on:load={() => onImageLoad('grp-' + project.id)}
+																	class="h-full w-full object-cover transition-all duration-500 group-hover:scale-105 {loadedImages['grp-' + project.id] ? 'opacity-100' : 'opacity-0'}"
+																/>
+															</div>
+														{/if}
 														<!-- Simplified info overlay for modal -->
 														<div class="pointer-events-none absolute inset-0 z-20 flex flex-col justify-end p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100 bg-linear-to-t from-black/90 to-transparent">
 															<h5 class="font-headline text-sm font-bold text-white">{project.title}</h5>

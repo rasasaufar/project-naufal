@@ -563,28 +563,347 @@
     "type": "video-portrait",
     "items": [
       {
-        "id": "09",
-        "title": "TIKTOK TRENDS",
-        "category": "SHORT FORM",
-        "videoId": "PLACEHOLDER_FILE_ID_3"
+        "id": "pv-socialx-1",
+        "title": "SOCIALX 1",
+        "category": "PORTRAIT VIDEO",
+        "group": "SocialX",
+        "videoId": "1leN_8HLA3P1VQ5jbgzv1Aqkm6b1PUrBS"
       },
       {
-        "id": "10",
-        "title": "INSTAGRAM REELS",
-        "category": "SOCIAL",
-        "videoId": "PLACEHOLDER_FILE_ID_4"
+        "id": "pv-socialx-2",
+        "title": "SOCIALX 2",
+        "category": "PORTRAIT VIDEO",
+        "group": "SocialX",
+        "videoId": "1F6Utr7kTTmmXCAP7H3A_pGBLe386GBbE"
       },
       {
-        "id": "11",
-        "title": "PRODUCT TEASER",
-        "category": "PROMO",
-        "videoId": "PLACEHOLDER_FILE_ID_7"
+        "id": "pv-socialx-3",
+        "title": "SOCIALX 3",
+        "category": "PORTRAIT VIDEO",
+        "group": "SocialX",
+        "videoId": "1YkiDtFSgBOx0Otg5WwWVkidix_0S3RD6"
       },
       {
-        "id": "12",
-        "title": "FASHION CAMPAIGN",
-        "category": "SOCIAL ADS",
-        "videoId": "PLACEHOLDER_FILE_ID_8"
+        "id": "pv-socialx-4",
+        "title": "SOCIALX 4",
+        "category": "PORTRAIT VIDEO",
+        "group": "SocialX",
+        "videoId": "1nXOrQWWvcgxyAtGcoTg38nA9_59uUHi3"
+      },
+      {
+        "id": "pv-socialx-5",
+        "title": "SOCIALX 5",
+        "category": "PORTRAIT VIDEO",
+        "group": "SocialX",
+        "videoId": "1F2baK6GEMUgEuvfQgHiqQ0JzxlTjWG4J"
+      },
+      {
+        "id": "pv-socialx-6",
+        "title": "SOCIALX 6",
+        "category": "PORTRAIT VIDEO",
+        "group": "SocialX",
+        "videoId": "11WZIuhbJ4Di-dPkky3t4KGI9JQTDHSJg"
+      },
+      {
+        "id": "pv-socialx-7",
+        "title": "SOCIALX 7",
+        "category": "PORTRAIT VIDEO",
+        "group": "SocialX",
+        "videoId": "1QvzWKtDPMOU39fHrHanVb0cfpjDpfiVN"
+      },
+      {
+        "id": "pv-socialx-8",
+        "title": "SOCIALX 8",
+        "category": "PORTRAIT VIDEO",
+        "group": "SocialX",
+        "videoId": "1AgWv5H-q396Q7lSBB3XwLYdz1mddkhuj"
+      },
+      {
+        "id": "pv-socialx-9",
+        "title": "SOCIALX 9",
+        "category": "PORTRAIT VIDEO",
+        "group": "SocialX",
+        "videoId": "1AAlKylvbLaCUlmckyeFOurdn33qiiCWe"
+      },
+      {
+        "id": "pv-mitra-keluarga-1",
+        "title": "MITRA KELUARGA 1",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "1H61otE6DZ9vQuTFp7BS4sOM9bzkyCQ8C"
+      },
+      {
+        "id": "pv-mitra-keluarga-2",
+        "title": "MITRA KELUARGA 2",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "1WCwfOIRL_CVjYOpyt6TT6aJXaQwHQ3AW"
+      },
+      {
+        "id": "pv-mitra-keluarga-3",
+        "title": "MITRA KELUARGA 3",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "1XPNx24ecwfV0CRIyhS4VxmuQwF_4J6ZB"
+      },
+      {
+        "id": "pv-mitra-keluarga-4",
+        "title": "MITRA KELUARGA 4",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "15N9gm1hIebEqKMHx38-HX2XTP3Y2PAYk"
+      },
+      {
+        "id": "pv-mitra-keluarga-5",
+        "title": "MITRA KELUARGA 5",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "1a6zVrcvd4wFBLyGOLvs_CsdVorIy17hh"
+      },
+      {
+        "id": "pv-mitra-keluarga-6",
+        "title": "MITRA KELUARGA 6",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "1r3E3n2UzkCBCP5L_I5Nz1uSkFrm58aBg"
+      },
+      {
+        "id": "pv-mitra-keluarga-7",
+        "title": "MITRA KELUARGA 7",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "1yfdX1Ht_XAN1p9laul6RHRkGTAXdPxni"
+      },
+      {
+        "id": "pv-mitra-keluarga-8",
+        "title": "MITRA KELUARGA 8",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "1VtIceoQko1MzTUSOI-OeT3CobwPCOi0M"
+      },
+      {
+        "id": "pv-mitra-keluarga-9",
+        "title": "MITRA KELUARGA 9",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "17KwJqlZX2bZMTCCONk1VVTHhrMoMbHH2"
+      },
+      {
+        "id": "pv-mitra-keluarga-10",
+        "title": "MITRA KELUARGA 10",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "1R_gKLveRVV17Pw3AfSnyjiZJqfgo5YPZ"
+      },
+      {
+        "id": "pv-mitra-keluarga-11",
+        "title": "MITRA KELUARGA 11",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "1buNifzWL9r7IxQE0DsYsvA9am8JJjhpf"
+      },
+      {
+        "id": "pv-mitra-keluarga-12",
+        "title": "MITRA KELUARGA 12",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "1fspCawTqdH0531Z4rkvUY05KtbeljmcP"
+      },
+      {
+        "id": "pv-mitra-keluarga-13",
+        "title": "MITRA KELUARGA 13",
+        "category": "PORTRAIT VIDEO",
+        "group": "Mitra Keluarga",
+        "videoId": "11xRfcl1fY5fxG-1H6LSagn8KWVbWAfv2"
+      },
+      {
+        "id": "pv-hsi-1",
+        "title": "HSI 1",
+        "category": "PORTRAIT VIDEO",
+        "group": "HSI",
+        "videoId": "1sgQ-Lq4ghU7ADDVuZ0ekjHJvt2favuYz"
+      },
+      {
+        "id": "pv-hsi-2",
+        "title": "HSI 2",
+        "category": "PORTRAIT VIDEO",
+        "group": "HSI",
+        "videoId": "1pC5C8lHEvO40dXeePyqnuIB4EY6LZJ9I"
+      },
+      {
+        "id": "pv-hsi-3",
+        "title": "HSI 3",
+        "category": "PORTRAIT VIDEO",
+        "group": "HSI",
+        "videoId": "16AMX-_uQIhC8K6V2rkUm11GapKIs6J19"
+      },
+      {
+        "id": "pv-hsi-4",
+        "title": "HSI 4",
+        "category": "PORTRAIT VIDEO",
+        "group": "HSI",
+        "videoId": "1UhkTfuuOUgPZNrI2t7JEKKzEOq8e8uU8"
+      },
+      {
+        "id": "pv-dedy-liem-1",
+        "title": "DEDY LIEM 1",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1_M2GLPrHsrmjpSCs8U1bWrpK1SCvbSja"
+      },
+      {
+        "id": "pv-dedy-liem-2",
+        "title": "DEDY LIEM 2",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "12h5mjzVfUB-z9LqZVRXAgKVEseH6fHZy"
+      },
+      {
+        "id": "pv-dedy-liem-3",
+        "title": "DEDY LIEM 3",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1IYkyg0RODXtvzAAZnYY5t-fRKmIBCv-d"
+      },
+      {
+        "id": "pv-dedy-liem-4",
+        "title": "DEDY LIEM 4",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "18vYPn6OWtk9zMkKEQt_Nptgu1S9EWKxB"
+      },
+      {
+        "id": "pv-dedy-liem-5",
+        "title": "DEDY LIEM 5",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "192PQldfYJOrQynbpZlurOrbHRXVOcsWS"
+      },
+      {
+        "id": "pv-dedy-liem-6",
+        "title": "DEDY LIEM 6",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1XvftE-YNjKoApYVeF6QqIMQhLWDpGRVH"
+      },
+      {
+        "id": "pv-dedy-liem-7",
+        "title": "DEDY LIEM 7",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1lOaN4Ev_kG3cMuN_P_2bzGNx-m08xZj8"
+      },
+      {
+        "id": "pv-dedy-liem-8",
+        "title": "DEDY LIEM 8",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1fVVBTkPZ4ejmHHVGP3sWPO3YZr9IdApS"
+      },
+      {
+        "id": "pv-dedy-liem-9",
+        "title": "DEDY LIEM 9",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "14O2DSWlXy_9bEa-anyYHbU67liuGVMpO"
+      },
+      {
+        "id": "pv-dedy-liem-10",
+        "title": "DEDY LIEM 10",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1-EBfCWtK_r3-R89pdCuLuj-ttfD-G89k"
+      },
+      {
+        "id": "pv-dedy-liem-11",
+        "title": "DEDY LIEM 11",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1NqJOQCKhQfTYl2169auv4zzvuPBSfoIV"
+      },
+      {
+        "id": "pv-dedy-liem-12",
+        "title": "DEDY LIEM 12",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1WnJbyU_bun6oagVTfK46sNKulLctpPib"
+      },
+      {
+        "id": "pv-dedy-liem-13",
+        "title": "DEDY LIEM 13",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1zjRbkRk8PAxun38rddTULGsHF4W3k7qn"
+      },
+      {
+        "id": "pv-dedy-liem-14",
+        "title": "DEDY LIEM 14",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1NcT_7RUPLVbmbJXToX-w9pi3Oqjq3k_g"
+      },
+      {
+        "id": "pv-dedy-liem-15",
+        "title": "DEDY LIEM 15",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1s_6rY4OMnHov1k4NWkbUp6pdmN3pOoyt"
+      },
+      {
+        "id": "pv-dedy-liem-16",
+        "title": "DEDY LIEM 16",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1k4xxjjdt5HwGEOaNg_T3mhkr4LaCFOXM"
+      },
+      {
+        "id": "pv-dedy-liem-17",
+        "title": "DEDY LIEM 17",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1RcBtAusf20GnDWIhEeBrMJo8s97iWGMd"
+      },
+      {
+        "id": "pv-dedy-liem-18",
+        "title": "DEDY LIEM 18",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1WHcxf19br9VtpK1hLM34Q2mtmHTqFc9T"
+      },
+      {
+        "id": "pv-dedy-liem-19",
+        "title": "DEDY LIEM 19",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1wArXbRjO_yeLtr8A6Ku7JBXGgmVvZFmP"
+      },
+      {
+        "id": "pv-dedy-liem-20",
+        "title": "DEDY LIEM 20",
+        "category": "PORTRAIT VIDEO",
+        "group": "Dedy Liem Konsultan Management",
+        "videoId": "1dvmBhyLFpTMxrxdUSgdwtyUDmuBaIlUW"
+      },
+      {
+        "id": "pv-garocco-1",
+        "title": "GAROCCO.ID 1",
+        "category": "PORTRAIT VIDEO",
+        "group": "Garocco.id",
+        "videoId": "1R5wHyk_MG7yUSlcdaPWF9l-1nIKmjzQA"
+      },
+      {
+        "id": "pv-garocco-2",
+        "title": "GAROCCO.ID 2",
+        "category": "PORTRAIT VIDEO",
+        "group": "Garocco.id",
+        "videoId": "1DBJ3XHLs04E82gtLWkt-fC2-M5qJug_D"
+      },
+      {
+        "id": "pv-garocco-3",
+        "title": "GAROCCO.ID 3",
+        "category": "PORTRAIT VIDEO",
+        "group": "Garocco.id",
+        "videoId": "1zLr4y29ZYk8tgkAa34TI5uOsjZ0lI4sK"
       }
     ]
   }
