@@ -16,26 +16,26 @@
 			<h1
 				class="font-headline text-[12vw] leading-none font-black tracking-tighter text-white uppercase"
 			>
-				TEKO. KERJO. GAJIAN. BALI.
+				DESIGN. VIDEO. CONTENT. GROWTH.
 			</h1>
 			<h1
 				class="font-headline stroke-white stroke-2 text-[12vw] leading-none font-black tracking-tighter text-transparent uppercase italic"
 				style="-webkit-text-stroke: 2px white;"
 			>
-				TEKO. KERJO. GAJIAN. BALI.
+				DESIGN. VIDEO. CONTENT. GROWTH.
 			</h1>
 		</div>
 		<div class="kinetic-scroll-text flex items-center gap-12">
 			<h1
 				class="font-headline text-[12vw] leading-none font-black tracking-tighter text-white uppercase"
 			>
-				TEKO. KERJO. GAJIAN. BALI.
+				DESIGN. VIDEO. CONTENT. GROWTH.
 			</h1>
 			<h1
 				class="font-headline stroke-white stroke-2 text-[12vw] leading-none font-black tracking-tighter text-transparent uppercase italic"
 				style="-webkit-text-stroke: 2px white;"
 			>
-				TEKO. KERJO. GAJIAN. BALI.
+				DESIGN. VIDEO. CONTENT. GROWTH.
 			</h1>
 		</div>
 	</div>
