@@ -57,7 +57,7 @@
 			<div class="bg-surface-container-highest relative h-full w-full overflow-hidden">
 				<img
 					loading="lazy"
-					src="/naufal-profile.png"
+					src="/naufal-profile.webp"
 					alt="Naufal - Creative Director Architect"
 					class="h-full w-full scale-125 object-cover object-[center_top] opacity-60 grayscale transition-all duration-1000 group-hover:scale-[1.3] group-hover:opacity-100"
 				/>
