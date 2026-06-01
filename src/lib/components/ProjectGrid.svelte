@@ -148,6 +148,12 @@
 		return groups;
 	}
 
+	function getProjectAspectClass(type: string, project?: Project): string {
+		if (type === 'video-landscape' || project?.group === 'Thumbnail') return 'aspect-video';
+		if (type === 'video-portrait' || type === 'design-story') return 'aspect-9/16';
+		return 'aspect-4/5';
+	}
+
 	// Helper to get a smaller thumbnail version of a Drive image URL for grid views
 	function getSmallThumbnail(url: string | undefined): string {
 		if (!url) return '';
@@ -206,10 +212,7 @@
 						<div class="bg-outline-variant/20 grid grid-cols-1 gap-px md:grid-cols-2">
 							<!-- ONLY slicing the first 2 items for homepage -->
 							{#each category.items.slice(0, 2) as project (project.id)}
-								<div class="bg-surface group relative flex flex-col overflow-hidden {
-									category.type === 'video-landscape' ? 'aspect-video' : 
-									(category.type === 'video-portrait' || category.type === 'design-story') ? 'aspect-9/16' : 'aspect-4/5'
-								}">
+								<div class="bg-surface group relative flex flex-col overflow-hidden {getProjectAspectClass(category.type, project)}">
 									
 									{#if category.type.startsWith('video')}
 										<!-- Custom play icon overlay for animations -->
@@ -348,8 +351,8 @@
 								<div class="h-px grow bg-white/10"></div>
 							</div>
 
-							<!-- conditional rendering for grouped view (Instagram story) or standard view -->
-							{#if category.type === 'design-story' && category.items.some(p => p.group)}
+							<!-- conditional rendering for grouped view or standard view -->
+							{#if category.items.some(p => p.group)}
 								<div class="flex flex-col gap-8">
 									{#each Object.entries(getGroupedProjects(category.items)) as [groupName, groupItems]}
 										<div class="flex flex-col rounded-2xl border border-white/10 bg-white/5 p-4 sm:p-6">
@@ -367,7 +370,7 @@
 											<!-- Group Grid -->
 											<div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
 												{#each groupItems as project (project.id)}
-													<div use:lazyLoad class="bg-surface group relative flex aspect-9/16 flex-col overflow-hidden rounded-xl border border-white/5">
+													<div use:lazyLoad class="bg-surface group relative flex {getProjectAspectClass(category.type, project)} flex-col overflow-hidden rounded-xl border border-white/5">
 														<button 
 															class="absolute inset-0 z-30 cursor-pointer border-none bg-transparent outline-none focus:ring-0" 
 															on:click={() => openImageModal(project, groupItems)} 
@@ -401,10 +404,7 @@
 								<!-- Grid inside modal uses 3 cols for smaller ratio, and masonry-like feel -->
 								<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
 									{#each category.items as project (project.id)}
-										<div use:lazyLoad class="bg-surface group relative flex flex-col overflow-hidden rounded-xl border border-white/5 {
-											category.type === 'video-landscape' ? 'aspect-video' : 
-											(category.type === 'video-portrait' || category.type === 'design-story') ? 'aspect-9/16' : 'aspect-4/5'
-										}">
+										<div use:lazyLoad class="bg-surface group relative flex flex-col overflow-hidden rounded-xl border border-white/5 {getProjectAspectClass(category.type, project)}">
 											{#if category.type.startsWith('video')}
 												<div class="pointer-events-none absolute inset-0 z-10 flex items-center justify-center bg-black/40 opacity-100 transition-opacity duration-300 group-hover:opacity-0">
 													<span class="material-symbols-outlined text-4xl text-white opacity-80">play_circle</span>

@@ -5,16 +5,144 @@
     "type": "design-feed",
     "items": [
       {
-        "id": "01",
-        "title": "BRAND CONCEPT",
-        "category": "VISUAL IDENTITY",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBkdzwDhN0QPoN6dRSZY92yeIBLKG1piffpiT8hBfBTB3Okz3hpa8_IUTwvBAK8BJt64qz-jHUo-mgOmyY_0iy-PmYkc1-vE5Pvf3gAxIaw30T1NPFykauHc-lLEibceg1UIBl2mGf1y5UgJwHfmKPBZkuui64UwlHnB5VcBwxYPgk-O4NSvQpYCdcW6PxSUAdFAudFZODvl0l19nYQhpizSw8vcNtcEob5NVpU4daiV2fUY60sa5k-L9rQB5fZlXk3LNrXx-2U-sEG"
+        "id": "d1",
+        "title": "DESIGN 1",
+        "category": "DESIGN",
+        "group": "Design",
+        "image": "https://drive.google.com/thumbnail?id=1s5fIyvF5ehllyV5QPv2ob50A6rnOiWx3&sz=w1080"
       },
       {
-        "id": "02",
-        "title": "POSTER SERIES",
-        "category": "TYPOGRAPHY",
-        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBdQKGURQx5DuUxioLcyKl_enjf0U3n8dMnAEU9Z5yfyYagCc2B-4RwDyVVY_rjYfsLYxZ8hFeOLZzHRIqsxhKvRal8kAa8WlLqCeXX418KQJDAIJX8-nhFz-Q0li2p3yEdYPNXLXHcsR2QSGXdvcww8rYswooMglxfBRmPNrNH-UH5IIQ9gdVxmz1dE-yfVW1ecrU2owu5To4MklcvVJ0qt3LzB-hSv9UMuigVOCGWVOLjOWCZCrUfIjyLElVpee-2yOu9GDWP44tm"
+        "id": "d2",
+        "title": "DESIGN 2",
+        "category": "DESIGN",
+        "group": "Design",
+        "image": "https://drive.google.com/thumbnail?id=14s-pphEqDfomyK3Vw-g5ove07T79jQ3U&sz=w1080"
+      },
+      {
+        "id": "d3",
+        "title": "DESIGN 3",
+        "category": "DESIGN",
+        "group": "Design",
+        "image": "https://drive.google.com/thumbnail?id=1xTRcwPsqRIVyHLN9bYTdJ-q55uYZ-yyL&sz=w1080"
+      },
+      {
+        "id": "d4",
+        "title": "DESIGN 4",
+        "category": "DESIGN",
+        "group": "Design",
+        "image": "https://drive.google.com/thumbnail?id=1TvNg5zyHm9GdJ8EniKoyi-LrphSoLajX&sz=w1080"
+      },
+      {
+        "id": "d5",
+        "title": "DESIGN 5",
+        "category": "DESIGN",
+        "group": "Design",
+        "image": "https://drive.google.com/thumbnail?id=1IrM9eIGaLU33JmnUlXoq73G8d07lUm5U&sz=w1080"
+      },
+      {
+        "id": "d6",
+        "title": "DESIGN 6",
+        "category": "DESIGN",
+        "group": "Design",
+        "image": "https://drive.google.com/thumbnail?id=1S-LPTH92UADh3OO3snEuuqYIsrCGJleW&sz=w1080"
+      },
+      {
+        "id": "d7",
+        "title": "DESIGN 7",
+        "category": "DESIGN",
+        "group": "Design",
+        "image": "https://drive.google.com/thumbnail?id=1pDW26FFoSta0zpym1BcaNDef3ZekahpZ&sz=w1080"
+      },
+      {
+        "id": "d8",
+        "title": "DESIGN 8",
+        "category": "DESIGN",
+        "group": "Design",
+        "image": "https://drive.google.com/thumbnail?id=1SyG1JS9ktm1NUTQUIHwnTD8cFJVnOz5w&sz=w1080"
+      },
+      {
+        "id": "d9",
+        "title": "DESIGN 9",
+        "category": "DESIGN",
+        "group": "Design",
+        "image": "https://drive.google.com/thumbnail?id=1xE-GjWO9MRrascKllJ3bM8oW8w33TqSW&sz=w1080"
+      },
+      {
+        "id": "d10",
+        "title": "DESIGN 10",
+        "category": "DESIGN",
+        "group": "Design",
+        "image": "https://drive.google.com/thumbnail?id=1krqM62D3NxeZNtbTfyffYNGRfrf3Hlkh&sz=w1080"
+      },
+      {
+        "id": "t1",
+        "title": "THUMBNAIL 1",
+        "category": "THUMBNAIL",
+        "group": "Thumbnail",
+        "image": "https://drive.google.com/thumbnail?id=19endpVCbTVCAMlFPlVSEksAMZPj6quKq&sz=w1080"
+      },
+      {
+        "id": "t2",
+        "title": "THUMBNAIL 2",
+        "category": "THUMBNAIL",
+        "group": "Thumbnail",
+        "image": "https://drive.google.com/thumbnail?id=1vq9tnVlCGCDlivVC64GVHo3S6hBc-rRE&sz=w1080"
+      },
+      {
+        "id": "t3",
+        "title": "THUMBNAIL 3",
+        "category": "THUMBNAIL",
+        "group": "Thumbnail",
+        "image": "https://drive.google.com/thumbnail?id=1Z0HETuT9jwRGoVgvu7KcI5JgH7KO3V6c&sz=w1080"
+      },
+      {
+        "id": "t4",
+        "title": "THUMBNAIL 4",
+        "category": "THUMBNAIL",
+        "group": "Thumbnail",
+        "image": "https://drive.google.com/thumbnail?id=1h9XNYZev5SlCrAlWjwV-uc_LHDbETCWy&sz=w1080"
+      },
+      {
+        "id": "t5",
+        "title": "THUMBNAIL 5",
+        "category": "THUMBNAIL",
+        "group": "Thumbnail",
+        "image": "https://drive.google.com/thumbnail?id=1qaMj2eIcNpAVV9ZWL6CIw1nhD8tLj_yn&sz=w1080"
+      },
+      {
+        "id": "t6",
+        "title": "THUMBNAIL 6",
+        "category": "THUMBNAIL",
+        "group": "Thumbnail",
+        "image": "https://drive.google.com/thumbnail?id=17T8Eicf8p4W7wrjLLP90S-YR2SkczYYx&sz=w1080"
+      },
+      {
+        "id": "t7",
+        "title": "THUMBNAIL 7",
+        "category": "THUMBNAIL",
+        "group": "Thumbnail",
+        "image": "https://drive.google.com/thumbnail?id=1L69p7vfji-RB0tJM7ppGb92Eu8WuD-5p&sz=w1080"
+      },
+      {
+        "id": "t8",
+        "title": "THUMBNAIL 8",
+        "category": "THUMBNAIL",
+        "group": "Thumbnail",
+        "image": "https://drive.google.com/thumbnail?id=1it5L3Amd16fEyb6dgkRifILAUPTtRy4W&sz=w1080"
+      },
+      {
+        "id": "t9",
+        "title": "THUMBNAIL 9",
+        "category": "THUMBNAIL",
+        "group": "Thumbnail",
+        "image": "https://drive.google.com/thumbnail?id=1MqfVGh_vW55gQebzaS3ivdLpHwU-8bs6&sz=w1080"
+      },
+      {
+        "id": "t10",
+        "title": "THUMBNAIL 10",
+        "category": "THUMBNAIL",
+        "group": "Thumbnail",
+        "image": "https://drive.google.com/thumbnail?id=1flfO7Ix785jSpxOi178r6pYASjzuo0iM&sz=w1080"
       }
     ]
   },
@@ -29,13 +157,6 @@
         "category": "TESTIMONIAL",
         "group": "Brown and White Modern Product Customer Testimonial",
         "image": "https://drive.google.com/thumbnail?id=1khHzh7UrLE1kYTwDAmAnpKpNmIE_PgM0&sz=w1080"
-      },
-      {
-        "id": "s2",
-        "title": "STORY 2",
-        "category": "TESTIMONIAL",
-        "group": "Brown and White Modern Product Customer Testimonial",
-        "image": "https://drive.google.com/thumbnail?id=1n3hDs8EvXu-ZjPAFAkzPKiYbEt9yk-ZC&sz=w1080"
       },
       {
         "id": "s3",
