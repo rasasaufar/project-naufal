@@ -38,20 +38,24 @@
 	];
 </script>
 
-<section class="border-outline-variant/10 bg-surface-container-lowest border-b px-12 py-24">
+<section
+	class="border-outline-variant/10 bg-surface-container-lowest border-b px-4 py-16 sm:px-6 sm:py-20 md:px-8 lg:px-12 lg:py-24"
+>
 	<div class="mx-auto flex max-w-screen-2xl flex-col items-center">
 		<span
-			class="font-label mb-16 flex items-center gap-4 text-xs tracking-[0.2em] text-neutral-500 uppercase"
+			class="font-label mb-10 flex items-center gap-3 text-xs tracking-normal text-neutral-500 uppercase sm:mb-16 sm:gap-4"
 		>
 			<span class="h-[1px] w-8 bg-neutral-500"></span>
 			THE ARSENAL
 			<span class="h-[1px] w-8 bg-neutral-500"></span>
 		</span>
 
-		<div class="flex flex-wrap justify-center gap-16 opacity-60 md:gap-24">
-			{#each tools as tool}
+		<div
+			class="grid w-full grid-cols-2 justify-items-center gap-x-6 gap-y-10 opacity-70 sm:grid-cols-3 md:grid-cols-4 md:gap-14 lg:flex lg:flex-wrap lg:justify-center lg:gap-20"
+		>
+			{#each tools as tool (tool.name)}
 				<div
-					class="group flex cursor-default flex-col items-center gap-6 transition-all duration-500 hover:scale-110 hover:opacity-100"
+					class="group flex w-full max-w-28 cursor-default flex-col items-center gap-4 text-center transition-all duration-500 hover:scale-105 hover:opacity-100 sm:gap-6"
 				>
 					<div class="relative h-12 w-12 md:h-16 md:w-16">
 						<img
@@ -66,7 +70,7 @@
 						/>
 					</div>
 					<span
-						class="font-label text-[10px] tracking-widest text-neutral-600 transition-colors group-hover:text-white"
+						class="font-label text-[10px] tracking-normal text-neutral-600 transition-colors group-hover:text-white"
 						>{tool.name}</span
 					>
 				</div>
